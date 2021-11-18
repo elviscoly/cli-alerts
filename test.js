@@ -1,6 +1,8 @@
 const alert = require('./index.js');
 
-alert({
-  type: `success`,
-  msg: `All done`
-})
+alert();
+
+alert({type: `success`, msg: `Everything finished!`, name: `Done`});
+alert({type: `warning`, msg: `You didn't add something!`});
+alert({type: `info`, msg: `Elvis is awesome!`});
+alert({type: `error`, msg: `Something went wrong!`});

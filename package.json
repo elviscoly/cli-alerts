@@ -24,7 +24,6 @@
     "email": "elviscoly2017@gmail.com",
     "url": "https://github.com/elviscoly"
   },
-
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/elviscoly/cli-alerts/issues"
@@ -32,5 +31,9 @@
   "homepage": "https://github.com/elviscoly/cli-alerts#readme",
   "devDependencies": {
     "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "log-symbols": "^4.0.0"
   }
 }
